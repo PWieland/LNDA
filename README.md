@@ -3,6 +3,7 @@ Low Noise Differential Amplifier with JFET Input
 
 This project is inspired by the Stanford Research SR560 Low Noise Voltage Preamplifier,
 featured in "The Art of Electronics" by Horowitz & Hill (somewhat of a must-have for analog engineers).
+For explanations refer to said book, an LTSPICE simulation file of the basic topology is also included here.
 
 What LNDA is: A DIY project aimed at building high-end test and measurement equipment on a budget.
 
