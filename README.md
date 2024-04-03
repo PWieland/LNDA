@@ -17,10 +17,12 @@ components such as relays and trim-potentiometers. The goal is to use footprints
 
 Compatible with either JFE2140 or LSK389/489 as input JFET.
 
+### Current Project Status: Prototype(s) working, but no GERBER files suitable for publishing yet
+
 First (home-etched) Prototype with through hole components, single layer layout and accordingly high sensitivity to EMI:
 ![IMG_1798](https://github.com/PWieland/LNDA/assets/65927363/cef5c569-c689-4579-bc2c-d414e0949bbc)
 
 V1 of the SMD Implementation with some minor layout errors (2-Layer PCB):
 ![IMG_0138](https://github.com/PWieland/LNDA/assets/65927363/e6300009-8223-4f24-b7a1-8b14ac44ca6f)
 
-
+V2 - work in progress
