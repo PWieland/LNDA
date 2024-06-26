@@ -66,6 +66,10 @@ V2 - work in progress
 
 ## Simulation:
 
+The original SR560 design with LSK389B and the simulated input referred noise and gain.
+<img width="1040" alt="image" src="https://github.com/PWieland/LNDA/assets/65927363/eeafb152-75bc-4df1-a792-f7c8d3083381">
+<img width="1020" alt="image" src="https://github.com/PWieland/LNDA/assets/65927363/9267b9d0-5c45-443a-a909-440bbf0484f2">
+
 
 ## Measurements:
 
