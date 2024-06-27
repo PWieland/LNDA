@@ -69,11 +69,9 @@ V2 - work in progress
 The original SR560 design with LSK389B and the simulated input referred noise and gain.
 <img width="1040" alt="image" src="https://github.com/PWieland/LNDA/assets/65927363/eeafb152-75bc-4df1-a792-f7c8d3083381">
 <img width="1020" alt="image" src="https://github.com/PWieland/LNDA/assets/65927363/9267b9d0-5c45-443a-a909-440bbf0484f2">
-Simply reducing the values of the feedback and source resistors by roughly half, results in a noticeable improvement, lowering noise levels to ~2nV/rtHz upwards of 10Hz.
+Simply reducing the values of the feedback and source resistors by roughly 50% (as suggested in "The Art of Electronics") results in a noticeable improvement, lowering noise levels to ~2nV/rtHz upwards of 10Hz.
 <img width="1319" alt="image" src="https://github.com/PWieland/LNDA/assets/65927363/7fb73b79-1cf5-4179-90a0-7b7a53f56156">
 The next step is to adjust the drain resistors and the biasing of the JFET to optimize for noise performance without impacting stability.
-
-
 
 ## Measurements:
 
