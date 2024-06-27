@@ -32,7 +32,7 @@ Compatible with either Texas Instruments JFE2140 or Linear Systems LSK389/489 as
 In the direct signal path, the original SR560 uses OP37 and LT1028, which are still very good choices.
 Both of them are decompensated (as in not unity-gain stable), low-noise, high-precision amplifiers.
 Substituting them without compromising performance or even improving performance figures is non-trivial.
-Using unity-gain-stable alternatives like Texas Instruments OPAx211
+Using unity-gain-stable alternatives like Texas Instruments OPAx211 is possible. OPA2211 is a dual OpAmp and will enable a smaller occupied board area.
 
 ### Resistors:
 
@@ -50,6 +50,15 @@ MELF resistors may be seen by some as a weird choice in modern electronics, but 
 In the signal chain, either NP0/C0G ceramic or film capacitors (PP/PS) are used. 
 For power filtering, a combination of X7R/X5R ceramics and electrolytic capactitors is employed.
 The usual rules about capacitor derating apply, maximum miniaturisation is again not feasible.
+
+### Electromechanical Components
+
+The smallest widely available latching relays are TE Connectivity Axicom IM and Omron G6K. I prefer made in EU components if possible, so in this case Axicom IM.
+While the footprints are compatible, attention must be paid to selecting the correct part number and adjusting for the difference in coil resistance. 
+
+As far as miniature trim potentiometers go, Bourns 3224W are an obvious choice and widely available in common values.
+
+Ultrasonic cleaning of these components is NOT RECOMMENDED.
 
 ### Current Project Status: Prototype(s) working, but no GERBER files suitable for publishing yet
 
