@@ -63,7 +63,8 @@ Ultrasonic cleaning of these components is NOT RECOMMENDED.
 ### Current Project Status: Prototype(s) working, but no GERBER files suitable for publishing yet
 
 First (home-etched) Prototype with through hole components, single layer layout and accordingly high sensitivity to EMI:
-![IMG_1798](https://github.com/PWieland/LNDA/assets/65927363/cef5c569-c689-4579-bc2c-d414e0949bbc)
+![IMG_0173](https://github.com/PWieland/LNDA/assets/65927363/b7b8bbd7-8854-4dd9-a8ee-2b925f06c33c)
+
 
 First SMD Implementation with some minor layout errors (2-Layer PCB):
 ![IMG_0138](https://github.com/PWieland/LNDA/assets/65927363/e6300009-8223-4f24-b7a1-8b14ac44ca6f)
